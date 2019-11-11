@@ -4,6 +4,7 @@ body,
 html {
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -14,16 +15,20 @@ body {
     'sidebar right'
     'footer footer';
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   list-style-type: none;
   float: right;
 }
+
 ul li {
   display: inline;
 }
+
 ul li a {
   color: #fff;
   padding: 15px;
@@ -38,6 +43,7 @@ ul li a {
   font-weight: bold;
   display: inline-block;
 }
+
 header {
   background-color: #41c7c7;
 
@@ -91,4 +97,29 @@ img {
 footer {
   grid-area: footer;
   background: lightgray;
+}
+
+#features {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  text-align: center;
+}
+
+#features i {
+  font-size: 2em;
+}
+
+ul#features {
+  margin: 0;
+  padding: 0;
+
+}
+
+ul#features li {
+  background-color: lightgray;
+  padding: 1em;
+}
+
+ul#features li p {
+  color: #4c4c4c;
 }
